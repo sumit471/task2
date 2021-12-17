@@ -1,0 +1,204 @@
+.outerContainer{
+    position: fixed;
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    overflow: auto;
+    
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-width: 1100px;
+    min-height: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.heading{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.topPart{
+    position: relative;
+    display: flex;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.left{
+    position: relative;
+    display: flex;
+    margin-right: 10px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid silver;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.0px 0.0px 0.0px hsl(0deg 0% 0% / 0.50);
+}
+.leftcol1{
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 20%;
+    height: 100%;
+    font-size: large;
+    
+}
+.leftcol2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+.leftcol2>div{
+    margin-top: 10px;
+}
+.right{
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-shadow: 0.0px 0.0px 0.0px hsl(0deg 0% 0% / 0.50);
+}
+.rightcol1{
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 20%;
+    height: 100%;
+    font-size: large;
+    
+}
+.rightcol2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+.rightcol2>div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.rightcol2>div>span{
+    width: 200px;
+}
+.rightcol2>div>input{
+    height: 30px;
+    
+}
+.rightcol2>div>select{
+    height: 30px;
+    width: 200px;
+}
+.bottomPart{
+    position: relative;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.0px 0.0px 0.0px hsl(0deg 0% 0% / 0.50);
+    border: 1px solid silver;
+}
+.bottomPart1{
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 20%;
+    height: 100%;
+    font-size: large;
+}
+.bottomPart2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+
+}
+.bottomPart2>div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.leftOption{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    border: 2px solid #f2f2f2;
+}
+.leftOption>span{
+    cursor: pointer;
+}
+.centerControl{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.centerControl>button{
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+    background-color: #ffffff;
+}
+.rightOption{
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    border: 2px solid #f2f2f2;
+}
+.rightOption>span{
+    cursor:pointer;
+}
+.control{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.control>div{
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.control>div>button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
